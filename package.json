@@ -1,0 +1,12 @@
+{
+    "name": "flight-club-contracts",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "deploy:local": "forge script DeployFlightClub --account 0xf39 --rpc-url http://localhost:8545 --broadcast"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC"
+}
