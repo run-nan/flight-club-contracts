@@ -1,66 +1,9 @@
-## Foundry
+# 合约地址
 
-**Foundry is a blazing fast, portable and modular toolkit for Ethereum application development written in Rust.**
-
-Foundry consists of:
-
--   **Forge**: Ethereum testing framework (like Truffle, Hardhat and DappTools).
--   **Cast**: Swiss army knife for interacting with EVM smart contracts, sending transactions and getting chain data.
--   **Anvil**: Local Ethereum node, akin to Ganache, Hardhat Network.
--   **Chisel**: Fast, utilitarian, and verbose solidity REPL.
-
-## Documentation
-
-https://book.getfoundry.sh/
-
-## Usage
-
-### Build
-
-```shell
-$ forge build 
-```
-
-### Test
-
-```shell
-$ forge test
-```
-
-### Format
-
-```shell
-$ forge fmt
-```
-
-### Gas Snapshots
-
-```shell
-$ forge snapshot
-```
-
-### Anvil
-
-```shell
-$ anvil
-```
-
-### Deploy
-
-```shell
-$ forge script script/Counter.s.sol:CounterScript --rpc-url <your_rpc_url> --private-key <your_private_key>
-```
-
-### Cast
-
-```shell
-$ cast <subcommand>
-```
-
-### Help
-
-```shell
-$ forge --help
-$ anvil --help
-$ cast --help
-```
+proxyFatTokenAddress 0x3dc447302097258e0689Ab6d37fEc67bf009154f
+proxySoapTokenAddress 0x588cEc7cf406CF60F6c41B0A2a16AfaE8E85eD1B
+proxyFactoryAddress 0x3D98A24251eDC3624D6e32F3F5efb66FAA6c3b4f
+FatTokenAddress 0x6848ccDaf68947dcc97C705AedEF6771948Fd533
+SoapTokenAddress 0xa6Dc8e287281BF2b8382A686fBA04f1e807Ff43c
+FactoryAddress 0xC29ec830517649452a276365cB8333a774547868
+gameAddress 0x061bc00F016b19b392B088a73cC47095BB7E27A2

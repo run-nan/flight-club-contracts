@@ -10,7 +10,6 @@ import {SoapToken} from "../src/soap-token.sol";
 import {Upgrades} from "../lib/openzeppelin-foundry-upgrades/src/Upgrades.sol";
 
 contract DeployFlightClub is Script {
-
     function run() public {
         vm.startBroadcast();
         //fatToken
